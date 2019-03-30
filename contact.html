@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Emerald Vapors</title>
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="head">
+                <h1>Emerald Vapors</h1>
+                <h2>2884 Washtenaw ave Ypsilanti</h2>
+                
+            </div>
+        </header>
+        
+        <div class="nav">
+                <ul class="navlist">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hardware.html">Hardware</a></li>
+                    <li><a href="liquid.html">Liquid</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                
+                </ul>
+            </div>
+    
+           <div class="wrap">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li>Please enter your name</li>
+                    <li><input type="text" name="name" placeholder="Full Name"></li>
+                    <li>Please enter you email</li>
+                    <li><input type="text" name="email" placeholder="Email"></li>
+                    <li>Please enter your message</li>
+                    <li><textarea rows="8" cols="60" name="message" placeholder="Your message here"></textarea></li>
+                    <li><button>Submit</button></li>
+                </ul>
+    
+           </div>
+           <div id="googleMap"></div>
+           <script>
+                function myMap() {
+                var mapProp= {
+                  center:new google.maps.LatLng(51.508742,-0.120850),
+                  zoom:5,
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                }
+                </script>
+                
+                <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+                
+    </body>
+</html>

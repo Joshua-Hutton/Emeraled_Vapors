@@ -1,0 +1,153 @@
+
+body{
+    background-color: rgb(21, 70, 2);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0;
+    width: 100%;
+    background-image: url(../images/customVap.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+header{
+    height: 200px;
+    width: 95%;
+    margin: 0 auto;
+    background-image: url(../images/theShop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(49, 49, 49);
+    border: 2px solid rgb(0,0,0);
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px rgb(0,0,0) ;
+}
+.head{
+    height: 95%;
+    width: 50%;
+}
+.head h1 {
+    color: rgb(49, 49, 49);
+    font-size: 50pt;
+    
+    margin-left: 5%;
+    margin-bottom: 0;
+
+}
+.head h2{
+    color: rgb(49, 49, 49);
+    font-size: 20pt;
+    margin-left: 8%;
+    margin-top:0;
+}
+
+.nav{
+    height: 20px;
+    width: 200px;
+}
+
+.navlist{
+    list-style: none;
+    display: inline-flex;
+
+}
+
+.navlist li{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 20px;
+    width: 150px;
+    background-color:  rgb(63, 63, 63);
+    border: 1px solid  rgb(0,0,0);;
+    border-radius: 5px;
+    margin-left: 5%;
+    padding: 5px;
+    box-shadow: 5px 10px 18px rgb(0,0,0) ;
+}
+
+.navlist a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255,255,255);
+
+}
+
+.wrap{
+    width: 95%;
+    height: 80%;
+    background-color:  rgb(63, 63, 63);
+    border: 2px solid rgb(0,0,0);
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px rgb(0,0,0) ;
+    margin: 40px auto;
+    margin-top:100px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.hardware img{
+    height: 300px;
+    width: 200px;
+    border:2px solid rgb(0,0,0);
+    border-radius: 10px;
+    margin: 15px 0 0 15px;
+}
+
+.hardware img:hover{
+    box-shadow: inset 3px 3px 5px rgb(0,0,0);
+}
+
+.top{
+    display: flex;
+    margin:3% 0 0 3%;
+}
+.top div{
+    height: 40%;
+    width: 40%;
+    text-align: center;
+    border: 2px solid rgb(0,0,0);
+    border-radius: 10px;
+    background-color: rgb(185, 184, 184);
+    margin-left: 5%;
+}
+
+
+.bottom{
+    display: flex;
+    margin:3% 0 0 3%;
+}
+
+.bottom div{
+    height: 50%;
+    width: 15%;
+    border: 2px solid rgb(0,0,0);
+    border-radius: 10px;
+    background-color: rgb(185, 184, 184);
+    margin:0 13%;
+}
+
+
+.bottom h2{
+    text-align: center;
+
+}
+
+.bottom ul{
+    margin-bottom:10px;
+}
+.top img{
+    height: 40%;
+    width: 40%;
+
+}
+.bottom img{
+    height: 40%;
+    width: 40%;
+    margin: 0 0 5% 8%;
+}
+.googleMap{
+    height: 400px;
+    width: 100%;
+}
